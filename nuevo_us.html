@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Nuevo Usuario</title>
+    <link rel="stylesheet" href="estilo_usuario.css" />
+</head>
+<body>
+    <div class="regist">
+        <h1>Se un usuario nuevo en nuestra comunidad</h1>
+        <form action="regis.php" method="post">
+            <input type="text" name = "name" placeholder="Ingresa tu nombre">
+            <input type="text" name="username" placeholder="Como gustas llamarte" required />
+            <input type="email" name="email" placeholder="Ingresa un correo electronico" required />
+            <input type="password" name="password" placeholder="Crea Contraseña" required />
+            <button type="submit">Todo Listo</button>
+        </form>
+        <p>¿Ya tienes cuenta? <a href="index.php">Inicia Sesión aquí</a></p>
+    </div>
+</body>
+</html>

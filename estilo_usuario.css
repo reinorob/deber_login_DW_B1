@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #172a3a; 
+    background-image: linear-gradient(135deg, #172a3a 0%, #004a7c 100%); 
+    color: white; 
+}
+
+.regist {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    
+    padding: 40px 30px;
+    border-radius: 27px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    border: 1.1px solid rgba(255, 255, 255, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+.regist h1 {
+    font-size: 1.4em;
+    margin-bottom: 32px;
+    color: #e0f2f7; 
+    font-weight: normal;
+}
+
+.regist form input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 7px;
+    box-sizing: border-box;
+    color: white; 
+    font-size: 1em;
+    transition: all 0.3s;
+}
+
+.regist form input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.regist form input:focus {
+    border-color: #0000;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+}
+
+.regist form button[type="submit"] {
+    width: 100%;
+    background-color: #C4C4C4ff;
+    color: #172a3a;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.regist form button[type="submit"]:hover {
+    background-color: #F7F7F7;
+    color: #172a3a;
+}
+
+.regist p {
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9em;
+}
+
+.regist a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.regist a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
